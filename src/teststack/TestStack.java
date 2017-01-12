@@ -28,6 +28,15 @@ public class TestStack {
         System.out.println(stack1.peek()); 
         stack1.push('R');
         System.out.println(stack1.peek()); 
+        System.out.println();
+        System.out.println(stack1.seek(1));
+        System.out.println(stack1.seek(2));
+        System.out.println(stack1.seek(3));
+        System.out.println(stack1.seek(0));
+        System.out.println(stack1.seek(4));
+        System.out.println(stack1.seek(5));
+        System.out.println(stack1.seek(6));
     }
+    
     
 }

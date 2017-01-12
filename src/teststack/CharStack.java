@@ -26,4 +26,15 @@ public class CharStack {
     public char peek() { return stackArray[topOfStack];}
     public boolean isEmpty() {return topOfStack == -1;}
     public boolean isFull() {return topOfStack == stackArray.length - 1;}
+    public String seek(int index) { 
+        if (!isEmpty()){
+            if(index <= stackArray.length - 1 ){
+              return (Character.toString(stackArray[index]));  }
+            else { return "Out of Bounds"; }
+            }
+            
+        
+        else {
+        return "Empty";}
+}
 }
